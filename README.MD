@@ -33,11 +33,17 @@ cd SecureBank
 Finally, execute the script by running:
 
 ```bash
-main.py
+python main.py
 ```
 
 Enjoy exploring SecureBank!
 
+## File Structure
+
+- `main.py`: Main script to run the bank account management system.
+- `Account.py`: Contains the `BankAccount` class and its methods for managing individual bank accounts.
+- `accounts.csv`: CSV file to store account information.
+- `transaction_history.csv`: CSV file to store transaction history.
 
 ## 🤝 Contributing
 
@@ -58,4 +64,4 @@ While SecureBank implements basic security measures, it's not designed for real-
 
 ## 📝 Note
 
-The `main.py` script implements a basic banking system with features like account creation, deposit, withdrawal, balance checking, and transaction history. Ensure you follow the prompts in the script for a smooth user experience.
+The `main.py` and `Account.py` script implements a basic banking system with features like account creation, deposit, withdrawal, balance checking, and transaction history. Ensure you follow the prompts in the script for a smooth user experience.
